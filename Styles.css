@@ -11,11 +11,13 @@ body{
 
 /* Logo ed intestazione */
 
+#testata{
+    text-align: center;
+    margin-top: 40px;
+}
+
 img{
    width: 230px;
-   position: absolute;
-   top: 12%;
-   left: 43%;
 }
 
 #container{
@@ -30,7 +32,7 @@ img{
 h1{
     color: #88cf24;
     text-align: center;
-    margin-top: 155px;
+    margin-top: 20px;
 }
 
 /* pulsanti */
