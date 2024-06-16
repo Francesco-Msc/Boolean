@@ -1,0 +1,100 @@
+
+/* Background pagina */
+
+body{
+    width: 100%;
+    margin: auto;
+    background-image: url('/Users/francesco/Documents/Visual Studio Code/Esercizio/background.jpg');
+    background-size: cover;
+    background-position: 0px 0px;
+}
+
+/* Logo ed intestazione */
+
+img{
+   width: 230px;
+   position: absolute;
+   top: 12%;
+   left: 43%;
+}
+
+#container{
+    height: 730px;
+    background-color: #0000007c;
+    border: 0px solid #0000007c;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 45px 180px;
+}
+
+h1{
+    color: #88cf24;
+    text-align: center;
+    margin-top: 155px;
+}
+
+/* pulsanti */
+
+#Pulsanti{
+    height: 45px;
+    background-color: #88cf24;
+    margin: 0px 70px;
+}
+
+button{
+    margin-top: 12px;
+    position: relative;
+    left: 38%;
+}
+
+/* checkbox */
+
+input{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+/* geolocalizzazione monopattini */
+
+.posizione{
+    margin-left: 70px;
+    color: white;
+}
+
+/* nome monopattini */
+
+label{
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 10px;
+    color: white;
+}
+
+/* barra carica monopattini */
+
+#caricaGino22{
+    height: 30px;
+    width: 30%;
+    background-color: #ffc400;
+    margin-left: 70px;
+    border: 0px 0px solid #ffc400;
+    border-radius: 10px;
+}
+
+#caricaMike24{
+    height: 30px;
+    width: 50%;
+    background-color: #00b200;
+    margin-left: 70px;
+    border: 0px 0px solid #00b200;
+    border-radius: 10px;
+}
+
+#caricaFede154{
+    height: 30px;
+    width: 15%;
+    background-color: #ea2727;
+    margin-left: 70px;
+    border: 0px 0px solid #ea2727;
+    border-radius: 10px;
+}
